@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    background-image: url("images/body-background.jpg");
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.navbar-container{
+    background-color: #382002;
+    
+}
+#navItem1{
+    color: #f7a258;
+    font-family: "poppins";
+}
+
+#navItem2{
+    color: #f7a258;
+    font-family: "poppins";
+}
+
+#navItem3{
+    color: #f7a258;
+    font-family: "poppins";
+}
+
+#navItem4{
+    color: #f7a258;
+    font-family: "poppins";
+}
+
+#navItem5{
+    color: #f7a258;
+    font-family: "poppins";
+}
+
+.coffee-heading{
+    color: #f7a258;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.home-section{
+    background-image: url("images/coffe-back.jpg");
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+
+.home-section-card{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+
+.home-heading{
+    color: #382002;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'poppins';
+   
+}
+
+
+.home-paragraph{
+    color: white;
+    font-size: 20px;
+    font-family: 'poppins';
+    margin-top: 10px;
+}
+
+
+.explore-button{
+    background-color: #c19a6b;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: 0.3s;
+    border-width: 0;
+    font-family: 'poppins';
+}
+
+@media (max-width: 768px){
+    .home-heading{
+        color: #382002;
+    }
+    .home-paragraph{
+        font-size: 12px;
+        color: #382002;
+
+    }
+    .explore-button{
+        color: #382002;
+    }
+}
+
+@media(min-width: 992px){
+    .home-section{
+        justify-content: flex-end;
+        padding-left: 40%;
+    }
+    .home-section-card{
+        padding: 30px;
+    }
+    .home-heading{
+        color: white; 
+    }
+}
+
+
+.explore-button:hover{
+    background-color: #a67c52;
+}
+
+
+
+.about-image{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    
+}
+
+.about-text-card{
+    /* background-color: #f3c893; */
+    color: #382002;
+    padding: 5px 30px 20px 30px;
+    height: 350px;
+    font-family: 'poppins';
+}
+
+.about-heading{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@media (max-width: 768px){
+    .about-text-card{
+        padding: 25px 30px 0px 30px;
+    }
+    
+}
+
+
+.menu-heading{
+    color: #382002;
+    font-family: 'poppins';
+    font-weight: bold;
+    
+    font-size: 30px;
+    margin: 40px 0 20px 12px;
+}
+
+.menu-card{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin: 15px 0;
+}
+
+.menu-card:hover{
+    transform: scale(0.9);
+}
+
+.menu-card-image{
+    height: 220px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-card-heading{
+    color: #382002;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.menu-card-para{
+    color: #532f02;
+    font-family: "poppins";
+}
+
+.price{
+    color: #cd3a11;
+    font-weight: 600;
+}
+
+.contact-card{
+    background-color: #382002;
+    color: #dfba9a;
+    padding: 30px;
+    height: 160px;
+}
+
+@media(min-width: 992px){
+    .contact-card{
+        height: 200px;
+    }
+}
+
+
+

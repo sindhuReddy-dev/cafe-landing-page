@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amro Cafe</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body style="background-color: #efe4d9;">
+  
+    <nav class="navbar navbar-expand-lg navbar-light navbar-container fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h1 class="coffee-heading">Coffee</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto nav-items-container">
+            <a class="nav-link active" id="navItem1" href="#homeSection">
+              Home
+              <span class="sr-only"></span>
+            </a>
+            <a class="nav-link" id="navItem2" href="#aboutSection">About</a>
+            <a class="nav-link" id="navItem3" href="#menuSection">Menu</a>
+            <a class="nav-link" id="navItem4" href="#gallerySection">Gallery</a>
+            <a class="nav-link" id="navItem5" href="#contactSection">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="home-section mb-5" id="homeSection">
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-12 p-0">
+            <div class="home-section-card">
+              <h2 class="home-heading">Welcome to Amro Cafe</h2>
+              <p class="home-paragraph">Where every cup tells a story and every sip feels like home.</p>
+              <button class="explore-button">Explore Menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section mt-5" id="aboutSection">
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-12 col-md-6 p-0">
+            <img src="images/cafe-image.jpeg" class="about-image"/>
+          </div>
+          <div class="col-12 col-md-6 p-0">
+            <div class="about-text-card">
+              <h2 class="about-heading mt-2">About Amro Cafe</h2>
+              <p class="mt-3">At Amro Cafe, we believe coffee is morethan just a 
+                beverage - it's an experience. From carefully selected
+                beans to handcrafted brews, every cup is made with 
+                passion and precision.
+              </p>
+              <p class="mt-4">We believe in creating a warm and welcoming space where 
+                conversations flow, creativity grows, and every sip feels 
+                special. Whether you're here for a quiet morning moment or 
+                an evening catch-up with friends, Amro Cafe is your home away from home.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-section mt-4" id="menuSection">
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-12">
+            <h1 class="menu-heading">Menu Highlights</h1>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="menu-card pb-4 m-2">
+              <img src="images/food5.jpeg" class="menu-card-image"/>
+              <div class="pt-3 pl-2">
+                <h3 class="menu-card-heading">Cheesy Pizza</h3>
+                <p class="menu-card-para">Loaded with fresh vegetables and cheese.</p>
+                <span class="price">Rs.350</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="menu-card pb-4 m-2">
+              <img src="images/food1.jpeg" class="menu-card-image"/>
+              <div class="pt-3 pl-2">
+                <h3 class="menu-card-heading">Spaghetti</h3>
+                <p class="menu-card-para">Twirls of flavor in every bite- classic spaghetti.</p>
+                <span class="price">Rs.300</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="menu-card pb-4 m-2">
+              <img src="images/food3.jpeg" class="menu-card-image"/>
+              <div class="pt-3 pl-2">
+                <h3 class="menu-card-heading">Sandwich</h3>
+                <p class="menu-card-para">A delectable symphony of flavors stacked between two slices of perfection.</p>
+                <span class="price">Rs.250</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-section mt-5" id="gallerySection">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="menu-heading mb-3">Gallery</h2>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-0">
+            <img src="images/food4.jpeg" class="gallery-image w-100"/>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-0">
+            <img src="images/food6.jpeg" class="gallery-image w-100"/>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-0">
+            <img src="images/coffee.jpeg" class="gallery-image w-100"/>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-0">
+            <img src="images/food2.jpeg" class="gallery-image w-100"/>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-0">
+            <img src="images/cafe3.jpeg" class="gallery-image w-100"/>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-0">
+            <img src="images/cafe1.jpeg" class="gallery-image w-100"/>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-0">
+            <img src="images/cafe7.jpeg" class="gallery-image w-100"/>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-0">
+            <img src="images/cafe5.jpeg" class="gallery-image w-100"/>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-0">
+            <img src="images/cafe6.jpeg" class="gallery-image w-100"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-section mt-2" id="contactSection">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="menu-heading">Contact Us</h2>
+          </div>
+          <div class="col-12 col-md-6 p-0">
+            <div class="contact-card">
+                <p>Amro Cafe | Hyderabad</p>
+                <p><span><i class="fa-solid fa-phone mr-2"></i></span> 9********6</p>
+                <a href="https://www.instagram.com/amrocafe?igsh=MXFmd254YzdoNHh2bA==" target="_blank"><span><i class="fa-brands fa-instagram mr-2"></i></span>Follow us</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 p-0">
+            <div class="contact-card">
+                <p>MON-SUN : 7:00AM-1.00AM</p>
+                <p><span><i class="fa-solid fa-location-dot mr-2"></i>Locations</span></p>
+                <a href="https://g.co/kgs/UjWKed" target="_blank" class="d-block">Gachibowli</a>
+                <a href="https://g.co/kgs/j4Ks7jD" target="_blank">Kondapur</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
